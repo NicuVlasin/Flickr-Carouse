@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Flickr Tool</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="side-bar">
+            <button id="search-button">Search</button>
+            <div id="tags-bar">
+                <h3>Tags</h3>
+                <ul id="tags-list">
+                    <li><input type="text" /></li>
+                </ul>
+                <button id="add-tag-button">+</button>
+            </div>
+        </div>
+        <div id="carousel">
+            <div id="mini-map">
+                <div id="mini-map-inner">
+                </div>
+                <button id="mini-map-left-button">&lt;</button>
+                <button id="mini-map-right-button">&gt;</button>
+            </div>
+            <div id="main-image">
+                <span class="message"></span>
+                <div id="main-image-inner"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

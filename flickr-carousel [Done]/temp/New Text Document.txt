@@ -1,0 +1,7 @@
+https://www.flickr.com/services/developer/api/
+ 
+https://www.flickr.com/services/api/response.json.html
+/ 
+https://www.flickr.com/services/api/flickr.photos.search.html
+/
+https://www.flickr.com/services/api/flickr.photos.getSizes.html/

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background: white;
+}
+
+
+#wrapper {
+    display: flex;
+    height: 100%;
+}
+
+
+#side-bar {
+    background-color: black;
+    color: white;
+    flex-shrink: 0;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#search-button {
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+#search-button img {
+    height: 8em;
+    margin: -30px;
+}
+
+
+#tags-bar {
+    text-align: left;
+    margin-top: 50px;
+}
+
+
+#tags-list {
+    list-style-type: none;
+}
+
+#tags-list li {
+    white-space: nowrap;
+}
+
+
+#tags-list input {
+    margin: 5px;
+}
+
+
+#carousel {
+    flex-grow: 1;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#mini-map {
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    background-color: grey;
+}
+
+
+#mini-map-inner {
+    box-sizing: border-box;
+    padding: 10px 0;
+    height: 100%;
+    white-space: nowrap;
+    position: relative;
+}
+
+
+#mini-map button {
+    height: 100%;
+    width: 30px;
+    top: 0;
+    position: absolute;
+    border-radius: 0;
+    opacity: 0;
+}
+
+
+#mini-map-left-button {
+    left: 0;
+}
+
+
+#mini-map-right-button {
+    right: 0;
+}
+
+
+#mini-map-inner img {
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#main-image {
+    flex-grow: 1;
+    display: flex;
+    padding: 20px;
+}
+
+
+#main-image-inner {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#main-image-inner img {
+    border-radius: 10px;
+}
+
+
+#main-image-inner .loading {
+    height: 200px;
+}
